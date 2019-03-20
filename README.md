@@ -50,7 +50,7 @@ or:
 
 #### Setting up Google Custom Search Engine
 
-The app is uses a Google Custom Search Engine to perform searches. Go [here](https://www.google.com/cse/) to set one
+The app uses a Google Custom Search Engine to perform searches. Go [here](https://www.google.com/cse/) to set one
 up.
 
 #### Configuration
@@ -73,7 +73,7 @@ The following properties can be configured:
 | `SESSION_COOKIE_DOMAIN` | The domain match rule that the session cookie will be valid for. | `127.0.0.1:5000`     |
 
 To change these properties you can export them as environment variables or create a file `instance/config.py` (note
-that any environment variables take precedence).
+that environment variables take precedence).
 
 URI style connections are also supported for connecting to MongoDB, just supply the URI as `MONGODB_HOST` (note that
 URI properties will take precedence).
